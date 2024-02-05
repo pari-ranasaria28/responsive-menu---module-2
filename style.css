@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Protest Riot', sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+    padding: 5px;
+    color: rgb(5, 12, 210);
+}
+.box{
+    /* border: 2px solid black; */
+    overflow: none;
+    width: 100%;
+}
+.title{
+    border: 2px solid black;
+    overflow: none;
+    float: right;
+    width: 80px;
+    height: 35px;
+    margin-top: 0px;
+    margin-right: 40px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    position: relative;
+}
+.content{
+    border: 2px solid black;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(181, 219, 232);
+    height: auto;
+    width: 90%;
+    margin: 15px;
+    padding: 10px;
+    padding-top: 50px;
+}
+@media (min-width : 992px){
+    .main{
+        float: left;
+        width: 33.33%;
+    }
+}
+@media (min-width : 768px) and (max-width : 991px){
+    .box1,.box2{
+        float: left;
+        width: 50%;
+    }
+    .box3{
+        float: left;
+        width: 100%;
+    }
+}
+@media (max-width : 767px){
+    .main{
+    float: left;
+    width: 100%;
+    }
+}
